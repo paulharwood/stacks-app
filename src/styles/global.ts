@@ -23,8 +23,8 @@ export default createGlobalStyle`
   }
 
   body, button, p, input {
-    font-family: 'roboto', sans-serif;
-    font-size: 14px;
+    font-family: 'inter', sans-serif;
+    font-size: 12px;
     color: ${colors.color};
     -webkit-font-smoothing: antialised !important;
   }
@@ -37,7 +37,7 @@ export default createGlobalStyle`
   }
 
   button, input {
-    border-radius: 0.75rem;
+    border-radius: 0px;
     border: none;
     outline: none;
     background: ${colors.background};

@@ -19,7 +19,7 @@ export const Container = styled.div`
 
     text-transform: uppercase;
     background: ${colors.background};
-    border-radius: 15px 15px 0 0;
+    border-radius: 0 0 0 0;
     padding: 20px;
 
     button {
@@ -31,7 +31,7 @@ export const Container = styled.div`
 
   footer {
     height: 10px;
-    border-radius: 0 0 15px 15px;
+    border-radius: 0 0 0 0;
     background: ${colors.background};
   }
 `
@@ -39,7 +39,7 @@ export const Container = styled.div`
 export const Box = styled.div`
   max-width: 350px;
   width: 100%;
-  border-radius: 15px;
+  border-radius: 0px;
 `
 
 export const Body = styled.div`
@@ -58,7 +58,7 @@ export const Inputs = styled.div`
   gap: 5px;
   
   background: ${colors.background};
-  border-radius: 12px;
+  border-radius: 0px;
   padding: 5px 15px;
 
   hr {
@@ -86,7 +86,7 @@ export const Inputs = styled.div`
       height: 30px;
       width: 100%;
       max-width: 145px;
-      border-radius: 20px;
+      border-radius: 0px;
       background: ${colors.glass};
       cursor: pointer;
 
@@ -94,7 +94,7 @@ export const Inputs = styled.div`
         -webkit-appearance: none;
         height: 30px;
         width: 30px;
-        border-radius: 50%;
+        border-radius: 0px;
         background: ${colors.background};
         border: 2px solid ${colors.glass};
         cursor: ew-resize;

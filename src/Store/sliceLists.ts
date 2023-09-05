@@ -30,7 +30,7 @@ const initialState: State =
     {
       lists: [
         { title: 'todo', items: [] },
-        { title: 'doing', items: [] },
+        { title: 'do', items: [] },
         { title: 'done', items: [] }
       ]
     }

@@ -7,13 +7,12 @@ export const Container = styled.div`
   justify-content: space-between;
 
   height: fit-content;
-  min-height: calc(100vh - 80px);
+  min-height: calc(100vh - 100px);
   max-height: fit-content;
-  width: calc((100% / 3) - 20px);
+  width: calc((100% / 3));
   min-width: 270px;
-  max-width: 500px;
   background: ${colors.glass};
-  border-radius: 15px;
+  border-radius: 0px;
 
   @media (max-width: 900px) {
     width: calc((100% / 2) - 10px);
@@ -34,7 +33,7 @@ export const Container = styled.div`
     padding: 10px;
     text-transform: uppercase;
     
-    border-radius: 15px 15px 0 0;
+    border-radius: 0 0 0 0;
     background: ${colors.background};
   }
   
@@ -58,7 +57,7 @@ export const Container = styled.div`
   
   footer {
     height: 10px;
-    border-radius: 0 0 15px 15px;
+    border-radius: 0 0 0 0;
     background: ${colors.background};
   }
 `

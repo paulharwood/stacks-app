@@ -19,7 +19,7 @@ export const Container = styled.div`
 
     text-transform: uppercase;
     background: ${colors.background};
-    border-radius: 15px 15px 0 0;
+    border-radius: 0 0 0 0;
     padding: 20px;
 
     button {
@@ -31,7 +31,7 @@ export const Container = styled.div`
 
   footer {
     height: 10px;
-    border-radius: 0 0 15px 15px;
+    border-radius: 0 0 0 0;
     background: ${colors.background};
   }
 `
@@ -39,7 +39,7 @@ export const Container = styled.div`
 export const Box = styled.div`
   max-width: 350px;
   width: 100%;
-  border-radius: 15px;
+  border-radius: 0px;
 `
 
 export const Body = styled.div`

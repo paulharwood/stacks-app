@@ -5,16 +5,16 @@ export const Container = styled.div`
   justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 0;
 
   height: 100%;
   width: 100%;
-  padding: 10px 20px;
+  padding: 0;
   overflow-y: auto;
   overflow-x: hidden;
 
   @media (max-width: 640px) {
-    padding: 10px 5px
+    padding: 0
   }
 
   &::-webkit-scrollbar {

@@ -8,7 +8,7 @@ import { Container, Box, Body, Buttons } from './styles'
 import { FaArrowLeft, FaPlus } from 'react-icons/fa'
 
 export const NewItemModal = () => {
-  const buttons = ['todo', 'doing', 'done']
+  const buttons = ['todo', 'do', 'done']
   const [value, setValue] = useState('')
 
   const dispatch = useDispatch()
@@ -41,7 +41,7 @@ export const NewItemModal = () => {
           <button onClick={closeNewItemModal}>
             <FaArrowLeft size={20} />
           </button>
-          <h1>add a new item</h1>
+          <h1>add</h1>
           <FaPlus size={20} />
         </header>
         <Body className='mt-10 mb-6 px-4'>

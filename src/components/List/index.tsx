@@ -18,16 +18,16 @@ interface Props {
 }
 
 export const List = ({ data, listIndex }: Props) => {
-  const handleIcon = () => {
-    const Icons = [<FaRegClock size={20} />, <FaPencilAlt size={20} />, <FaCheck size={20} />]
-    return Icons[listIndex]
-  }
+  // const handleIcon = () => {
+  //   const Icons = [<FaRegClock size={20} />, <FaPencilAlt size={20} />, <FaCheck size={20} />]
+  //   return Icons[listIndex]
+  // }
 
   return (
     <Container>
       <header>
-        {handleIcon()}
-        <h1>{data.title}</h1>
+        {/* {handleIcon()} */}
+        <div>{data.title}</div>
       </header>
       <Droppable droppableId={String(listIndex)}>
         {(provided: DroppableProvided) => (

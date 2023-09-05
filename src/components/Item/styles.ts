@@ -8,6 +8,7 @@ export const Container = styled.li`
   padding: 8px 0 8px 8px;
   border-bottom: 2px ${colors.color + '40'} solid;
   cursor: grab;
+  background:${colors.color + '40'};
 
   p {
     width: 100%; 
