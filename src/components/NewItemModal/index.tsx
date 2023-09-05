@@ -8,7 +8,9 @@ import { Container, Box, Body, Buttons } from './styles'
 import { FaArrowLeft, FaPlus } from 'react-icons/fa'
 
 export const NewItemModal = () => {
-  const buttons = ['todo', 'do', 'done']
+  const buttons = ['todo', 'do']
+  // const buttons = ['todo', 'do', 'done']
+
   const [value, setValue] = useState('')
 
   const dispatch = useDispatch()

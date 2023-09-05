@@ -13,6 +13,7 @@ export const Container = styled.div`
   min-width: 270px;
   background: ${colors.glass};
   border-radius: 0px;
+  border-left:3px solid rgba(33,33,33,0.3);
 
   @media (max-width: 900px) {
     width: calc((100% / 2) - 10px);
